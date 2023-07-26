@@ -1,0 +1,24 @@
+cold_vkey: "keys/cold-preview.vkey"
+cold_skey: "keys/cold-preview.skey"
+stake_vkey: "keys/stake-preview.vkey"
+stake_skey: "keys/stake-preview.skey"
+vrf_vkey: "keys/vrf-preview.vkey"
+payment_vkey: "keys/payment-preview.vkey"
+payment_skey: "keys/payment-preview.skey"
+
+rewards_address: "keys/preview.plutus"
+pool_metadata: "keys/poolMetaData.preview.json"
+pool_metadata_url: "https://is.gd/Ikn7kl"
+
+pledge: 8000000000
+cost: 340000000
+margin_numerator: 1
+margin_denominator: 1
+
+relays:
+  - !SingleHostName
+    port: 3001
+    dns_name: preview-node.pool.milkomeda.com
+
+inputs:
+  - 0166d4097513c146dcbde2f9d4ebe026eea53f633567e099b57602187cd0ceed@0

@@ -1,0 +1,17 @@
+cold_vkey: "keys/cold-mainnet.vkey"
+payment_bech32: "addr1qxej75kdsa7k70z2jr5ph4hlzd6e58ndj8d7qwssvkjx94535x6xht8nqt534r96gsc88aausnx8guq6xwxpz85vvkgstxaqz2"
+payment_mnemonics: "keys/payment_register_mainnet.skey"
+use_same_address_for_nft: false
+stake_nft_bech32: "addr1qycphal90yuz0nkkk0sadlq5avq6flu43d3juyndqcctlk5tv9pnw2jc6r8qy9j5hw458h5dewa6a0z2fp9hepg458zs4cmt9h"
+stake_nft_mnemonics: "keys/stake_nft_mainnet.skey"
+
+rewards_address: "keys/mainnet.plutus"
+
+inputs:
+  - cc9f81372a80f78ea7b196c9dc2aef6baf942c71f99a5529f6262b9b422c8b79@1
+
+stake_nft_input: 98bef582b8b37264417e87055b7c1ef71b4a77ada756889bad0b33eb6beaae13@0
+
+collateral: cc9f81372a80f78ea7b196c9dc2aef6baf942c71f99a5529f6262b9b422c8b79@0
+nft_asset_name: "Milkomeda Stake NFT"
+nft_policy_id_hex: "6cede3cca146542b070480a2de9ea8b6c9653a3b131c1d744dc16b57"

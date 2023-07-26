@@ -1,0 +1,10 @@
+minter_bech32: "addr_test1vpnw02mnjs67x8fuf3qe04kvprq7ukl8xz0pgfp2q7cr2sg99cjf0"
+asset_name: "Milkomeda Stake NFT"
+lock_since: 34546000
+send_to_bech32: "addr_test1vpnw02mnjs67x8fuf3qe04kvprq7ukl8xz0pgfp2q7cr2sg99cjf0"
+
+inputs:
+  - b9470fe4a517c2c7ee524e053d4f9fe74d3d07516d4482bf96bc6f14bc03cc89@0
+
+payment_vkey: "keys/payment-preprod.vkey"
+payment_skey: "keys/payment-preprod.skey"

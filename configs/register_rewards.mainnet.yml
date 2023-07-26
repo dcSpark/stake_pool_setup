@@ -1,0 +1,10 @@
+# payment_vkey: "keys/payment-mainnet.vkey"
+# payment_skey: "keys/payment-mainnet.skey"
+payment_mnemonics: "keys/payment_register_mainnet.skey"
+payment_bech32: "addr1qxej75kdsa7k70z2jr5ph4hlzd6e58ndj8d7qwssvkjx94535x6xht8nqt534r96gsc88aausnx8guq6xwxpz85vvkgstxaqz2"
+rewards_address: "keys/mainnet.plutus"
+
+inputs:
+  - 91c58093b2c50a7806281481f5d3fe8053796c8d0e5e6507ea377b03bb4ed0bd@0
+
+

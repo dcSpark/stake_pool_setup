@@ -1,0 +1,14 @@
+cold_vkey: "keys/cold-preprod.vkey"
+payment_vkey: "keys/payment-preprod.vkey"
+payment_skey: "keys/payment-preprod.skey"
+
+rewards_address: "keys/preprod.plutus"
+
+inputs:
+  - ecf472749b463dd2efa99e9ba1251a33d0b29a64608a78cd17a90a3024a6f683@0
+
+stake_nft_input: 358113becbfa5984aab7a93b851a6e2c1d7970f09d637d390e1e35effd592628@0
+
+collateral: 62a8eb948e57126a0f00d0cde47cc55d07138c2f4ac19fb42b1c3f36d7a43aab@0
+nft_asset_name: "Milkomeda Stake NFT"
+nft_policy_id_hex: "ec82339c70656f233f55bd1d3ecb98fb4c91bcca6fb456d2bbe0d4d7"

@@ -1,0 +1,24 @@
+cold_vkey: "keys/cold-preprod.vkey"
+cold_skey: "keys/cold-preprod.skey"
+stake_vkey: "keys/stake-preprod.vkey"
+stake_skey: "keys/stake-preprod.skey"
+vrf_vkey: "keys/vrf-preprod.vkey"
+payment_vkey: "keys/payment-preprod.vkey"
+payment_skey: "keys/payment-preprod.skey"
+
+rewards_address: "keys/preprod.plutus"
+pool_metadata: "keys/poolMetaData.preprod.json"
+pool_metadata_url: "https://is.gd/Ikn7kl"
+
+pledge: 8000000000
+cost: 340000000
+margin_numerator: 1
+margin_denominator: 1
+
+relays:
+  - !SingleHostName
+    port: 3002
+    dns_name: preprod-node.pool.milkomeda.com
+
+inputs:
+  - 87418801e716092563b8042716ddee563f29c18da11cb1fef072832b47536c7b@0

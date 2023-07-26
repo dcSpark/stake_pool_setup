@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "pool-tools",
+]
+
+[workspace.metadata.release]
+shared-version = false
+tag = true

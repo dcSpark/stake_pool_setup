@@ -1,0 +1,24 @@
+cold_vkey: "keys/cold-mainnet.vkey"
+stake_vkey: "keys/stake-mainnet.vkey"
+vrf_vkey: "keys/vrf-mainnet.vkey"
+payment_bech32: "addr1q8lzappdnv473jzxrtrf6qdqya7dudadh5mzusa8uaaxdv7s32sv9xhee0s5e3gtdhrh4a9le5krkdwu9vdww8x03xfss388mt"
+
+rewards_address: "keys/mainnet.plutus"
+pool_metadata: "keys/poolMetaData.mainnet.json"
+pool_metadata_url: "https://milkomeda.com/pools/mkm.json"
+
+pledge: 0
+cost: 340000000
+margin_numerator: 1
+margin_denominator: 1
+
+relays:
+  - !SingleHostName
+    port: 3001
+    dns_name: mainnet-node-1.pool.milkomeda.com
+  - !SingleHostName
+    port: 3001
+    dns_name: mainnet-node-2.pool.milkomeda.com
+
+inputs:
+  - 6977bbfaf40c7201b921c190d8d04b3b97d44ed4a73ae52a96da02c4c4c66af9@0

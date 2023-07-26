@@ -1,0 +1,7 @@
+payment_vkey: "keys/payment-preview.vkey"
+payment_skey: "keys/payment-preview.skey"
+
+rewards_address: "keys/preview.plutus"
+
+inputs:
+  - 8364bf9443e9a9a4c80df19c22fc0db08beab7de3c0b5a927d844f3f49422bec@0
